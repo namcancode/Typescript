@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.menutren {
+	min-height: 200px;
+	background: url(img/menu.png) no-repeat center;
+	background-size: cover;
+}
+.trai {
+	text-align: right;
+}
+.inpm {
+	width: 50px;
+	border: none;
+}
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 13px;
+}
+
+a.tieude {
+	color: #414141;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	display: block;
+}
+a.tieude:hover {
+	color: green;
+}
+h3.tdto {
+	padding: 17px 0;
+}

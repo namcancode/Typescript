@@ -88,12 +88,22 @@ console.log(doituong()); */
 let x: number = 10;
 let y: number = 15;
 let tbc: number = (x + y) / 2;
-console.log("tbc :", tbc);
+// console.log("tbc :", tbc);
 
-let z = function  (x:number, y:string):string {
-	return `Chao ${y}, nam nay ban ${x} tuoi co phai khong?`
+let z = function(x: number, y: string): string {
+	return `Chao ${y}, nam nay ban ${x} tuoi co phai khong?`;
+};
+let g: (x: number, y: string) => string = function(x, y) {
+	return `Chao ${y}, nam nay ban ${x} tuoi co phai khong?`;
+};
+// console.log(g(31,"Viet"));
+
+const h = (x: number): number => {
+	return x + 10;
+};
+console.log(h(9));
+function tinh6(x: number): number {
+	return x + 10;
 }
-let g :  (x:number, y:string) => string = function(x,y) {
-	return `Chao ${y}, nam nay ban ${x} tuoi co phai khong?`
-}
-console.log(g(31,"Viet"));
+
+console.log(tinh6(10));

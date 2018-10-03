@@ -86,11 +86,19 @@ console.log(doituong()); */
 var x = 10;
 var y = 15;
 var tbc = (x + y) / 2;
-console.log("tbc :", tbc);
+// console.log("tbc :", tbc);
 var z = function (x, y) {
     return "Chao " + y + ", nam nay ban " + x + " tuoi co phai khong?";
 };
 var g = function (x, y) {
     return "Chao " + y + ", nam nay ban " + x + " tuoi co phai khong?";
 };
-console.log(g(31, "Viet"));
+// console.log(g(31,"Viet"));
+var h = function (x) {
+    return x + 10;
+};
+console.log(h(9));
+function tinh6(x) {
+    return x + 10;
+}
+console.log(tinh6(10));
