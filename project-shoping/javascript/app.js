@@ -1,4 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-// const tatcahang = new QuanLyHang()
-console.log("object");
+import { QuanLyHang } from "./quanlyhang";
+var tatcahang = new QuanLyHang();
+console.log("hello");

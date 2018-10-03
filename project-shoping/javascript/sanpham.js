@@ -1,7 +1,47 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var SanPham = /** @class */ (function () {
-    function SanPham(id, ten, gia, mota, tinhtrang, anh) {
+export class SanPham {
+    //id
+    get id() {
+        return this._id;
+    }
+    set id(v) {
+        this._id = v;
+    }
+    //ten
+    get ten() {
+        return this._ten;
+    }
+    set ten(v) {
+        this._ten = v;
+    }
+    //gia
+    get gia() {
+        return this._gia;
+    }
+    set gia(v) {
+        this._gia = v;
+    }
+    //mota
+    get mota() {
+        return this._mota;
+    }
+    set mota(v) {
+        this._mota = v;
+    }
+    //tinhtrang
+    get tinhtrang() {
+        return this._tinhtrang;
+    }
+    set tinhtrang(v) {
+        this._tinhtrang = v;
+    }
+    //anh
+    get anh() {
+        return this._anh;
+    }
+    set anh(v) {
+        this._anh = v;
+    }
+    constructor(id, ten, gia, mota, tinhtrang, anh) {
         this.id = id;
         this.ten = ten;
         this.gia = gia;
@@ -9,72 +49,4 @@ var SanPham = /** @class */ (function () {
         this.tinhtrang = tinhtrang;
         this.anh = anh;
     }
-    Object.defineProperty(SanPham.prototype, "id", {
-        //id
-        get: function () {
-            return this._id;
-        },
-        set: function (v) {
-            this._id = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SanPham.prototype, "ten", {
-        //ten
-        get: function () {
-            return this._ten;
-        },
-        set: function (v) {
-            this._ten = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SanPham.prototype, "gia", {
-        //gia
-        get: function () {
-            return this._gia;
-        },
-        set: function (v) {
-            this._gia = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SanPham.prototype, "mota", {
-        //mota
-        get: function () {
-            return this._mota;
-        },
-        set: function (v) {
-            this._mota = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SanPham.prototype, "tinhtrang", {
-        //tinhtrang
-        get: function () {
-            return this._tinhtrang;
-        },
-        set: function (v) {
-            this._tinhtrang = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    Object.defineProperty(SanPham.prototype, "anh", {
-        //anh
-        get: function () {
-            return this._anh;
-        },
-        set: function (v) {
-            this._anh = v;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return SanPham;
-}());
-exports.SanPham = SanPham;
+}

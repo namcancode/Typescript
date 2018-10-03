@@ -54,7 +54,14 @@ export class SanPham {
 	public set anh(v: string) {
 		this._anh = v;
 	}
-	constructor(id: number, ten: string, gia: number, mota: string, tinhtrang: boolean, anh: string) {
+	constructor(
+		id: number,
+		ten: string,
+		gia: number,
+		mota: string,
+		tinhtrang: boolean,
+		anh: string
+	) {
 		this.id = id;
 		this.ten = ten;
 		this.gia = gia;

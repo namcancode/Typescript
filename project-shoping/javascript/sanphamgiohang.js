@@ -1,17 +1,12 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var SanPhamGioHang = /** @class */ (function () {
-    function SanPhamGioHang(sanpham, soluong) {
-        if (soluong === void 0) { soluong = 1; }
+export class SanPhamGioHang {
+    constructor(sanpham, soluong = 1) {
         this.sanpham = sanpham;
         this.soluong = soluong;
     }
-    SanPhamGioHang.prototype.tinhGiaTien = function () {
+    tinhGiaTien() {
         return;
-    };
-    SanPhamGioHang.prototype.showSanPhamTrongGioHang = function () {
-        return "";
-    };
-    return SanPhamGioHang;
-}());
-exports.SanPhamGioHang = SanPhamGioHang;
+    }
+    showSanPhamTrongGioHang() {
+        return ``;
+    }
+}

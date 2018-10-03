@@ -1,8 +1,17 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var QuanLyGioHang = /** @class */ (function () {
-    function QuanLyGioHang() {
+export class QuanLyGioHang {
+    constructor() {
+        this.CacSanPhamTrongGioHang = [];
     }
-    return QuanLyGioHang;
-}());
-exports.QuanLyGioHang = QuanLyGioHang;
+    addSanPhamTrongGioHang(motsanpham, soLuong) { }
+    updateSanPhamTrongGioHang(motsanpham, soLuong) { }
+    kiemTraTrangThaiSanPham() { }
+    tinhSoLuong() {
+        return;
+    }
+    tinhGia() {
+        return;
+    }
+    hienThiGioHang() {
+        return;
+    }
+}
